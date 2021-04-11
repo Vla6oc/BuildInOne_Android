@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="units">
+        <item>Метр</item>
+        <item>Сантиметр</item>
+        <item>Миллиметр</item>
+        <item>Дюйм</item>
+        <item>Фут</item>
+        <item>Ярд</item>
+    </string-array>
+
+
+</resources>

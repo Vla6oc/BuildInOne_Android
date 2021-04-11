@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BuildInOne</string>
+    <string name="inf">Manual</string>
+    <string name="input_hint_units">Output value</string>
+    <string name="action_settings">Customization</string>
+    <string name="action_cleanStorage">Deleting saved photos</string>
+    <string name="action_avtor">Information</string>
+    <string name="input_hint">Initial length and unit of measurement</string>
+    <string name="setReferencePoints">1) Select the reference point</string>
+    <string name="setMeasurePoints">2) Select measurement points</string>
+    <string name="setScaleValue">3) Click OK and enter \nthe original length</string>
+    <string name="setPicture">Take a photo</string>
+    <string name="btn_clear">Clearing</string>
+    <string name="error_noPoints">Please click on the screen to select the point</string>
+    <string name="error_noScale">Please enter the scale value</string>
+    <string name="error_numberFormat">Please enter a decimal number</string>
+    <string name="result_lbl">Result = </string>
+    <string name="btn_takePicture">Take a photo</string>
+    <string name="action_choosePhoto">Select an existing photo</string>
+    <string name="storageDeleted">Photos deleted</string>
+    <string name="btn_selectScale">Select a scale</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="btn_OK">OK</string>
+    <string name="avtor">Developer</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="game">Game</string>
+    <string name="lx">lx</string>
+    <string name="fio">Vladislav S. Pavlovich</string>
+    <string name="gr">student of the group: IST-41</string>
+    <string name="len">Length = </string>
+    <string name="s_o">Circle area = </string>
+    <string name="s_t">Area of the triangle = </string>
+    <string name="s_p">Area of the quadrilateral = </string>
+    <string name="t">Information</string>
+    <string name="t0">Tap on the screen to continue</string>
+    <string name="t1">Photographing a measurement object</string>
+    <string name="t2">Selecting reference points</string>
+    <string name="t3">Selecting measurement points</string>
+    <string name="t4">Click on the "OK" button</string>
+    <string name="t5">Enter the original length (template) and click "OK" </string>
+    <string name="t6">The result of the desired length, as well as the area of the circle</string>
+    <string name="t66">since it can also be a diameter</string>
+    <string name="t7">Finding the area of a triangle</string>
+    <string name="t8">Finding the area of a quadrilateral</string>
+    <string name="t9">Horizontal surface level</string>
+    <string name="t10">Surface level in all planes</string>
+    <string name="t11">Light level in Lux when the light is on</string>
+    <string name="t12">Light level in Lux when the lights are off</string>
+</resources>

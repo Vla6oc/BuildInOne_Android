@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BuildInOne</string>
+    <string name="inf">Инструкция</string>
+    <string name="input_hint_units">Выходное значение</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_cleanStorage">Удаление сохраненных фотографий</string>
+    <string name="action_avtor">Информация</string>
+    <string name="input_hint">Начальная длина и единица измерения</string>
+    <string name="setReferencePoints">1) Выберите опорные точки</string>
+    <string name="setMeasurePoints">2) Выберите точки измерения</string>
+    <string name="setScaleValue"> 3) Нажмите на ОК \nи введите исходную длину</string>
+    <string name="setPicture">Выберите пункт</string>
+    <string name="btn_clear">Очистка</string>
+    <string name="error_noPoints">Пожалуйста, нажмите на экран, чтобы выбрать точки</string>
+    <string name="error_noScale">Пожалуйста, введите значение шкалы</string>
+    <string name="error_numberFormat">Пожалуйста, введите десятичное число</string>
+    <string name="result_lbl">Результат = </string>
+    <string name="btn_takePicture">Сделать фото</string>
+    <string name="action_choosePhoto">Выберите существующую фотографию</string>
+    <string name="storageDeleted">Фотографии удалены</string>
+    <string name="btn_selectScale">Выберите масштаб</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="btn_OK">OK</string>
+    <string name="avtor">Разработчик</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="game">Игра</string>
+    <string name="lx">лк</string>
+    <string name="fio">Павлович Владислав Сергеевич</string>
+    <string name="gr">Студент группы: ИСТ-41</string>
+    <string name="len">Длина = </string>
+    <string name="s_o">Площадь круга = </string>
+    <string name="s_t">Площадь треугольника = </string>
+    <string name="s_p">Площадь четырехугольника = </string>
+    <string name="t">Информация</string>
+    <string name="t0">Нажмите на экран для продолжения</string>
+    <string name="t1">Фотографирование объекта измерения</string>
+    <string name="t2">Выбор опорных точек</string>
+    <string name="t3">Выбор точек измерения</string>
+    <string name="t4">Нажать на кнопку «ОК»</string>
+    <string name="t5">Ввести исходную длину (шаблонную) и нажать «ОК»</string>
+    <string name="t6">Результат искомой длины, а также площади круга,</string>
+    <string name="t66">так как это может быть и диаметр</string>
+    <string name="t7">Нахождение площади треугольника</string>
+    <string name="t8">Нахождение площади четырехугольника</string>
+    <string name="t9">Уровень горизонтальной поверхности</string>
+    <string name="t10">Уровень поверхности во всех плоскостях</string>
+    <string name="t11">Уровень освещенности в Люксах при включенном свете</string>
+    <string name="t12">Уровень освещенности в Люксах при выключенном свете</string>
+</resources>
