@@ -45,7 +45,7 @@ public class intro extends Activity {
         logo2.startAnimation(lo2);
         back3.startAnimation(lo3);
         logo3.startAnimation(lo3);
-            new CountDownTimer(3000, 500) {
+            new CountDownTimer(3500, 500) {
                 @Override
                 public void onTick(long l) {
 
@@ -56,12 +56,5 @@ public class intro extends Activity {
                     startActivity(questionIntent);
                 }
             }.start();
-        cl.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent questionIntent = new Intent(intro.this, MainActivity.class);
-                startActivity(questionIntent);
-            }
-        });
     }
 }

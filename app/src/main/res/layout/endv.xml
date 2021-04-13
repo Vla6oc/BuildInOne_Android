@@ -10,8 +10,7 @@
     android:layout_marginTop="0dp"
     android:layout_marginEnd="0dp"
     android:layout_marginRight="0dp"
-    android:layout_marginBottom="0dp"
-    android:background="#373737">
+    android:layout_marginBottom="0dp">
 
     <FrameLayout
         android:id="@+id/Layout1"
@@ -36,7 +35,7 @@
         android:layout_marginTop="150dp"
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="32dp"
-        android:foreground="@drawable/fonk"
+        android:foreground="@drawable/fon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,7 +47,7 @@
         android:id="@+id/frf"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:foreground="@drawable/aba"
+        android:foreground="@drawable/fon"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
