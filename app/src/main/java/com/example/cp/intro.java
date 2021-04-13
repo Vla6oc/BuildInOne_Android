@@ -20,8 +20,6 @@ public class intro extends Activity {
     private ImageView logo2;
     private ImageView logo3;
     private ImageView back1;
-    private ImageView back2;
-    private ImageView back3;
     private ConstraintLayout cl;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,18 +30,15 @@ public class intro extends Activity {
         logo2 = (ImageView) findViewById(R.id.logo2);
         logo3 = (ImageView) findViewById(R.id.logo3);
         back1 = (ImageView) findViewById(R.id.l1);
-        back2 = (ImageView) findViewById(R.id.l2);
-        back3 = (ImageView) findViewById(R.id.l3);
         cl = (ConstraintLayout) findViewById(R.id.clc);
         Animation lo1 = AnimationUtils.loadAnimation(this, R.anim.log1);
         Animation lo2 = AnimationUtils.loadAnimation(this, R.anim.log2);
         Animation lo3 = AnimationUtils.loadAnimation(this, R.anim.log3);
+        Animation al = AnimationUtils.loadAnimation(this, R.anim.alp);
         getActionBar().hide();
-        back1.startAnimation(lo1);
+        back1.startAnimation(al);
         logo1.startAnimation(lo1);
-        back2.startAnimation(lo2);
         logo2.startAnimation(lo2);
-        back3.startAnimation(lo3);
         logo3.startAnimation(lo3);
             new CountDownTimer(3500, 500) {
                 @Override
