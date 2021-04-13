@@ -48,7 +48,7 @@
         android:id="@+id/frf"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:foreground="@drawable/fonk"
+        android:foreground="@drawable/aba"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
