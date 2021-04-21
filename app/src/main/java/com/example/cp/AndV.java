@@ -237,62 +237,6 @@ public class AndV extends Activity {
                         public void onFinish() {
                             f2.setForeground(getResources().getDrawable(R.drawable.pr3));
                             f2.startAnimation(start);
-                        }
-                    }.start();
-                }
-                if (flag == 13) {
-                    new CountDownTimer(300, 300) {
-                        @Override
-                        public void onTick(long l) {
-                            f2.startAnimation(end);
-                            tv.setText(getResources().getText(R.string.t9));
-                        }
-                        @Override
-                        public void onFinish() {
-                            f1.setForeground(getResources().getDrawable(R.drawable.ur1));
-                            f1.startAnimation(start);
-                        }
-                    }.start();
-                }
-                if (flag == 14) {
-                    new CountDownTimer(300, 300) {
-                        @Override
-                        public void onTick(long l) {
-                            f1.startAnimation(end);
-                            tv.setText(getResources().getText(R.string.t10));
-                        }
-                        @Override
-                        public void onFinish() {
-                            f2.setForeground(getResources().getDrawable(R.drawable.ur2));
-                            f2.startAnimation(start);
-                        }
-                    }.start();
-                }
-                if (flag == 15) {
-                    new CountDownTimer(300, 300) {
-                        @Override
-                        public void onTick(long l) {
-                            f2.startAnimation(end);
-                            tv.setText(getResources().getText(R.string.t11));
-                        }
-                        @Override
-                        public void onFinish() {
-                            f1.setForeground(getResources().getDrawable(R.drawable.svet1));
-                            f1.startAnimation(start);
-                        }
-                    }.start();
-                }
-                if (flag == 16) {
-                    new CountDownTimer(300, 300) {
-                        @Override
-                        public void onTick(long l) {
-                            f1.startAnimation(end);
-                            tv.setText(getResources().getText(R.string.t12));
-                        }
-                        @Override
-                        public void onFinish() {
-                            f2.setForeground(getResources().getDrawable(R.drawable.svet2));
-                            f2.startAnimation(start);
                             flag = -1;
                         }
                     }.start();
