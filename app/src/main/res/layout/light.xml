@@ -29,11 +29,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:orientation="vertical">
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="125dp" />
 
             <FrameLayout
                 android:id="@+id/framl"
@@ -64,13 +61,6 @@
                 android:text="TextView"
                 android:textColor="#FFFFFF"
                 android:textSize="36sp" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="371dp"
-                android:layout_height="342dp"
-                android:layout_gravity="center"
-                android:src="@drawable/tab" />
 
         </LinearLayout>
     </ScrollView>
